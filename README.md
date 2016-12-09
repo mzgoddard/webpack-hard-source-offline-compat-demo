@@ -10,8 +10,8 @@ Some provided in this repo webpack configurations demo this solution.
 
 - [webpack.config.js](./webpack.config.js): Demos the compatibility solution with a plugin
 - [webpack.config.commons.js](./webpack.config.commons.js): The same compatibility plugin with CommonsChunkPlugin to test a differnt use case
-- [webpack.config.prefetch-should-fail.js](./webpack.config.commons.js): The same compatibility plugin with PrefetchPlugin that the current test currently provides a false positive on
-- [webpack.config.prefetch-should-pass.js](./webpack.config.commons.js): The same compatibility plugin with PrefetchPlugin
+- [webpack.config.prefetch-should-fail.js](./webpack.config.prefetch-should-fail.js): The same compatibility plugin with PrefetchPlugin that the current test currently provides a false positive on
+- [webpack.config.prefetch-should-pass.js](./webpack.config.prefetch-should-pass.js): The same compatibility plugin with PrefetchPlugin
 
 ### Prefetching
 
