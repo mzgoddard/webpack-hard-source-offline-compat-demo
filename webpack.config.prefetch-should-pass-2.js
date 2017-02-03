@@ -3,7 +3,7 @@ var offlinePlugin = new (require('offline-plugin'))();
 module.exports = {
   context: __dirname,
   entry: {
-    main: './src/index-no-runtime',
+    main: './src/index-query',
   },
   output: {
     path: 'dist',

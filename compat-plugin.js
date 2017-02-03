@@ -15,7 +15,7 @@ CompatPlugin.prototype.apply = function(compiler) {
     function walk(compilation) {
       compilation.chunks.forEach(function(chunk) {
         chunk.modules.forEach(function(module) {
-          if (module.resource === runtimePath) {
+          if (module.resource.indexOf(runtimePath) === 0) {
             offlinePlugin.flags.runtimeAdded = true;
           }
         });
